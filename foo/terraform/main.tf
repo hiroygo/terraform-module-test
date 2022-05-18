@@ -16,4 +16,8 @@ resource "aws_iam_role" "this" {
       },
     ]
   })
+
+  tags = {
+    tag-key = "tag-value"
+  }
 }
